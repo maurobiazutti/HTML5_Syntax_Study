@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+<body>
+    <main>
+      <form action="">
+        <div>
+          <label for="idtexto">Texto:</label>
+          <input type="text" id="idtexto" name="idtexto">
+        </div>
+
+        <div>
+          <label for="idpassword">Senha</label>
+          <input type="password" id="idpassword" name="idpassword"/>
+        </div>
+
+        <div>
+          <label for="iddate">Data</label>
+          <input type="date" id="iddate" name="iddate"/>
+        </div>
+
+        <div>
+          <label for="idfile">Arquivo</label>
+          <input type="file" id="idfile" name="idfile"/>
+        </div>
+
+        <div>
+          <label for="idemail">Email</label>
+          <input type="email" id="idemail" name="idemail"/>
+        </div>
+
+        <div>
+          <label for="idcheck1">Check 1</label>
+          <input type="checkbox" id="idcheck1" name="idcheck" value="Check 1"/>
+
+          <label for="idcheck2">Check 2</label>
+          <input type="checkbox" id="idcheck2" name="idcheck" value="Check 2"/>
+
+          <label for="idcheck3">Check 3</label>
+          <input type="checkbox" id="idcheck3" name="idcheck" value="Check 3"/>
+        </div>
+
+
+        <div>
+          <label for="idradio1">Radio 1</label>
+          <input type="radio" id="idradio1" name="idradio" value="Radio 1"/>
+
+          <label for="idcheck2">Radio 2</label>
+          <input type="radio" id="idcheck2" name="idradio" value="Radio 2"/>
+        </div>
+
+        <div>
+          <label for="idtextarea">Caixa de Texto:</label>
+          <textarea id="idtextarea" name="idtextarea" rows="5" cols="30"></textarea>
+        </div>
+
+        <div>
+          <label for="selecao">Selecione</label>
+          <select name="selecao" id="selecao">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">Javascript</option>
+          </select>
+        </div>
+
+        <input type="button" onclick="alert('oi')" value="Botão"/>
+        <input type="submit"  value="Enviar Form"/>
+
+      </form>
+    </main>
+</body>
+</html>
